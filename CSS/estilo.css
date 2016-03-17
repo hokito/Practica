@@ -1,0 +1,36 @@
+body{
+	font-family: Verdana, tahoma, Sans-serif;
+}
+
+
+p{
+	font-size: 2em;
+	/* Unidades de Medida
+		-Px (pixel)
+		-em (relativa. Puede cambiar segun el contexto del elemento)
+	*/	
+	color:#FFA5E2;
+	/* Hexadecimal usando por ej color:f45g68
+		otra forma es RGB (255,0,0) canal para Red Green Blue
+		Usando el color directamente=olive
+		si uso RGBA le agrego transparencia ejemplo rgba(255,0,0,5)
+		*/
+	font-weight: normal; /* bold. El NORMAL le saca las negritas a las que por default vienen en negrita com olas h1,  */
+	font-style: italic;
+	text-align: left; /* Left right center, justified*/
+	text-transform: capitalize; /*por defecto se puede poner NONE  tambien esta, uppercase, lowercase o capitalize que sirve para
+	poner Mayuscula a la primer letra*/
+	text-decoration:none;
+	/* puede ser underline, overline, line-through */
+	letter-spacing:4px;
+	word-spacing:;
+	line-height:22px;
+	/* distancia entre parrafo. por default usa 6px. Si es de 22px, hara 22+6px=28px*/
+}
+.Caja-01{
+	font-size: 30px
+}
+
+#Caja-02{
+	font-size: 10px		
+}
